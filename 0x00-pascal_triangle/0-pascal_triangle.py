@@ -6,11 +6,12 @@ A function to print the pascal's triangle
 
 def pascal_triangle(n):
     """
-    Pascal's Trangle function
+    Pascal's Triangle function
     """
     # An empty list for each row
     ans = []
-    #An empty list for each row of list
+
+    # An empty list for each row of list
     final_list = []
     if n < 1:
         print(ans)
