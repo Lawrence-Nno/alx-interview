@@ -1,3 +1,8 @@
+#!/usr/python3
+"""
+A function to print the pascal's triangle
+"""
+
 def pascal_triangle(n):
     """
     Pascal's Trangle function
