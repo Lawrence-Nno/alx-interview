@@ -1,4 +1,4 @@
-#!/usr/python3
+#!/usr/bin/python3
 """
 A function to print the pascal's triangle
 """
