@@ -1,2 +1,1 @@
-How to code Pascal's Triangle
-
+Some ALX impromtu tasks
