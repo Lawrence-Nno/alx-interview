@@ -6,7 +6,7 @@ sequentially from 0 to n - 1 and each box may contain keys to the other boxes.
 
 
 def canUnlockAll(boxes):
-  """a function to determine if all the boxes can be opened"""
+  # a function to determine if all the boxes can be opened
   if not boxes:
       return False
   amount = len(boxes)
