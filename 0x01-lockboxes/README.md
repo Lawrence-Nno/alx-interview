@@ -1,0 +1,1 @@
+Python interview type question
