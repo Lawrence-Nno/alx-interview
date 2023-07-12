@@ -5,15 +5,19 @@ In a text file, there is a single character H. Your text editor can execute only
 
 
 def minOperations(n):
-  """A method that returns the fewest num of operations"""
+  """
+  A method that returns the fewest num of operations
+  """
   num_of_operations = 0
   index = 2
   if n <= 1:
     return 0
   while (index < n + 1):
-    """checks if n is divisible"""
+    # Checks if n is divisible
     while n % index == 0:
+      # If divisible add to the no of operations
       num_of_operations += index
+      # Continue with the result of the division
       n /= index
     index += 1
   return num_of_operations
