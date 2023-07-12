@@ -10,7 +10,6 @@ def minOperations(n):
   index = 2
   if n <= 1:
     return 0
-
   while (index < n + 1):
     """checks if n is divisible"""
     while n % index == 0:
