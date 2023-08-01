@@ -1,24 +1,10 @@
 #!/usr/bin/python3
-"""
-Script that solves the N queens problem based on the general Backtracking
-algorithm.
-
-This is:
-procedure bt(c) is
-    if reject(P, c) then return
-    if accept(P, c) then output(P, c)
-    s  first(P, c)
-    while s  NULL do
-        bt(s)
-        s  next(P, s)
-"""
+""" N queens puzzle solution"""
 import sys
 
 
 def valid_pos(solution, pos):
-    """
-    Function that verifies if the position is valid
-    """
+    """ This func verifies if the position is valid """
     for queen in solution:
         if queen[1] == pos[1]:
             return False
@@ -30,9 +16,7 @@ def valid_pos(solution, pos):
 
 
 def solve_queens(row, n, solution):
-    """
-    Function that finds the solution recursively, from the root down
-    """
+    """This func finds the solution recursively, from the root down"""
     if (row == n):
         print(solution)
     else:
@@ -45,9 +29,7 @@ def solve_queens(row, n, solution):
 
 
 def main(n):
-    """
-    Main function
-    """
+    """ The main function"""
     solution = []
     """ From root(0) down(n) """
     solve_queens(0, n, solution)
